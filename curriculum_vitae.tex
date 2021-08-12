@@ -1,0 +1,73 @@
+%!TEX engine = xelatex
+\documentclass[10pt]{article}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\setmainfont{Raleway}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\renewcommand{\refname}{Publications}
+\newcommand\x{-0.3cm}
+\newcommand\y{0.4cm}
+\setlist[itemize]{rightmargin=\dimexpr\linewidth-10cm-\leftmargin\relax,noitemsep,topsep=0cm}
+
+\pretitle{\begin{center}\vspace{-.75cm}}
+\title{\Huge \bf Seth Martin}
+\posttitle{\end{center}}
+\predate{}
+\date{}
+\postdate{}
+\preauthor{}
+\author{}
+\postauthor{}
+
+\begin{document}
+\maketitle
+
+\setlength{\parindent}{0ex}
+4100 South 4th St. \hfill \href{mailto:Seth.Martin@stmary.edu}{Seth.Martin@stmary.edu}
+
+Leavenworth, KS 66048 \hfill \href{https://github.com/scmartin}{github.com/scmartin}
+
+(913)758-4339 \hfill \href{https://www.linkedin.com/in/sethcmartin}{linkedin.com/in/sethcmartin}
+\hrule
+
+%\renewcommand{\section}{\textsc{section}}
+\allsectionsfont{\sectionrule{0ex}{0pt}{-1ex}{1pt}}
+
+\section*{\textsc{Education}}
+\input{tex/education.tex}
+
+\section*{\textsc{Professional Experience}}
+\input{tex/work.tex}
+
+\section*{\textsc{Research Experience}}
+\input{tex/research.tex}
+
+\section*{\textsc{Teaching Experience}}
+\input{tex/teaching.tex}
+
+\section*{\textsc{Service}}
+\input{tex/service.tex}
+
+\section*{\textsc{Scholarships \& Awards}}
+\input{tex/awards.tex}
+
+\section*{\textsc{Conferences \& Presentations}}
+\input{tex/presentations.tex}
+
+
+\section*{\textsc{Specialized Training}}
+\input{tex/training.tex}
+
+
+\nocite{*}
+\bibliographystyle{plainrevyr}
+\bibliography{mypubs}
+
+\end{document}

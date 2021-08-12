@@ -1,0 +1,24 @@
+PWD c:\Users\seth\Documents\Curriculum_vitae\CV
+INPUT C:\Users\seth\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\seth\Documents\Curriculum_vitae\CV\curriculum_vitae.tex
+OUTPUT c:\Users\seth\Documents\Curriculum_vitae\CV\curriculum_vitae.log
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+OUTPUT c:\Users\seth\Documents\Curriculum_vitae\CV\curriculum_vitae.pdf
+INPUT C:\Users\seth\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\seth\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
+INPUT C:\Users\seth\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse-generic.tex
